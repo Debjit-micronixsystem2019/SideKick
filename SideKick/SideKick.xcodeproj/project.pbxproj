@@ -3,27 +3,31 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		84A4E1BE25D4FACA0041DE96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A4E1BD25D4FACA0041DE96 /* AppDelegate.swift */; };
 		84A4E1C025D4FACA0041DE96 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A4E1BF25D4FACA0041DE96 /* SceneDelegate.swift */; };
-		84A4E1C225D4FACA0041DE96 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A4E1C125D4FACA0041DE96 /* ViewController.swift */; };
 		84A4E1C525D4FACA0041DE96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A4E1C325D4FACA0041DE96 /* Main.storyboard */; };
 		84A4E1C725D4FAD90041DE96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84A4E1C625D4FAD90041DE96 /* Assets.xcassets */; };
 		84A4E1CA25D4FAD90041DE96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A4E1C825D4FAD90041DE96 /* LaunchScreen.storyboard */; };
+		E7D2045AD92866E6D9CE982C /* Pods_SideKick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDC2FCA015F9089C86BAFD85 /* Pods_SideKick.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		84A4E1BA25D4FACA0041DE96 /* SideKick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SideKick.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84A4E1BD25D4FACA0041DE96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84A4E1BF25D4FACA0041DE96 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		84A4E1C125D4FACA0041DE96 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		84A4E1C425D4FACA0041DE96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84A4E1C625D4FAD90041DE96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84A4E1C925D4FAD90041DE96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84A4E1CB25D4FAD90041DE96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84A4E1D325D512050041DE96 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Bold.ttf"; path = "../../../../../../../Downloads/Montserrat (1)/Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		84A4E1D425D512050041DE96 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-SemiBold.ttf"; path = "../../../../../../../Downloads/Montserrat (1)/Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		B9B6FB9450FF266DA74831CA /* Pods-SideKick.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SideKick.release.xcconfig"; path = "Target Support Files/Pods-SideKick/Pods-SideKick.release.xcconfig"; sourceTree = "<group>"; };
+		BE8F34874A756DA036CFA1F3 /* Pods-SideKick.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SideKick.debug.xcconfig"; path = "Target Support Files/Pods-SideKick/Pods-SideKick.debug.xcconfig"; sourceTree = "<group>"; };
+		DDC2FCA015F9089C86BAFD85 /* Pods_SideKick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SideKick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +35,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7D2045AD92866E6D9CE982C /* Pods_SideKick.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		050E060BD91F8ED3CFBCF9EC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE8F34874A756DA036CFA1F3 /* Pods-SideKick.debug.xcconfig */,
+				B9B6FB9450FF266DA74831CA /* Pods-SideKick.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		16F06DA03D7E6E7E510174E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DDC2FCA015F9089C86BAFD85 /* Pods_SideKick.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		84A4E1B125D4FACA0041DE96 = {
 			isa = PBXGroup;
 			children = (
 				84A4E1BC25D4FACA0041DE96 /* SideKick */,
 				84A4E1BB25D4FACA0041DE96 /* Products */,
+				050E060BD91F8ED3CFBCF9EC /* Pods */,
+				16F06DA03D7E6E7E510174E6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +80,32 @@
 		84A4E1BC25D4FACA0041DE96 /* SideKick */ = {
 			isa = PBXGroup;
 			children = (
-				84A4E1BD25D4FACA0041DE96 /* AppDelegate.swift */,
-				84A4E1BF25D4FACA0041DE96 /* SceneDelegate.swift */,
-				84A4E1C125D4FACA0041DE96 /* ViewController.swift */,
+				84A4E1D225D511B80041DE96 /* Font */,
+				84A4E1D125D511950041DE96 /* Delegate */,
 				84A4E1C325D4FACA0041DE96 /* Main.storyboard */,
 				84A4E1C625D4FAD90041DE96 /* Assets.xcassets */,
 				84A4E1C825D4FAD90041DE96 /* LaunchScreen.storyboard */,
 				84A4E1CB25D4FAD90041DE96 /* Info.plist */,
 			);
 			path = SideKick;
+			sourceTree = "<group>";
+		};
+		84A4E1D125D511950041DE96 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				84A4E1BD25D4FACA0041DE96 /* AppDelegate.swift */,
+				84A4E1BF25D4FACA0041DE96 /* SceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		84A4E1D225D511B80041DE96 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				84A4E1D325D512050041DE96 /* Montserrat-Bold.ttf */,
+				84A4E1D425D512050041DE96 /* Montserrat-SemiBold.ttf */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +115,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84A4E1CE25D4FAD90041DE96 /* Build configuration list for PBXNativeTarget "SideKick" */;
 			buildPhases = (
+				F301DF736B9A617BFFE133FF /* [CP] Check Pods Manifest.lock */,
 				84A4E1B625D4FACA0041DE96 /* Sources */,
 				84A4E1B725D4FACA0041DE96 /* Frameworks */,
 				84A4E1B825D4FACA0041DE96 /* Resources */,
+				616A4E9FA6E942F388A46399 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,12 +176,53 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		616A4E9FA6E942F388A46399 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SideKick/Pods-SideKick-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SideKick/Pods-SideKick-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SideKick/Pods-SideKick-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F301DF736B9A617BFFE133FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SideKick-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		84A4E1B625D4FACA0041DE96 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84A4E1C225D4FACA0041DE96 /* ViewController.swift in Sources */,
 				84A4E1BE25D4FACA0041DE96 /* AppDelegate.swift in Sources */,
 				84A4E1C025D4FACA0041DE96 /* SceneDelegate.swift in Sources */,
 			);
@@ -282,6 +366,7 @@
 		};
 		84A4E1CF25D4FAD90041DE96 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE8F34874A756DA036CFA1F3 /* Pods-SideKick.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -294,12 +379,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = micronix.SideKick;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		84A4E1D025D4FAD90041DE96 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9B6FB9450FF266DA74831CA /* Pods-SideKick.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -312,7 +398,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = micronix.SideKick;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

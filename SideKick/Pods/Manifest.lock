@@ -1,0 +1,20 @@
+PODS:
+  - ACFloatingTextfield-Swift (1.8)
+  - Toast-Swift (5.0.1)
+
+DEPENDENCIES:
+  - ACFloatingTextfield-Swift
+  - Toast-Swift
+
+SPEC REPOS:
+  trunk:
+    - ACFloatingTextfield-Swift
+    - Toast-Swift
+
+SPEC CHECKSUMS:
+  ACFloatingTextfield-Swift: c3212cef9548ae58fa914ea1c26a2f9a4f7cd7df
+  Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
+
+PODFILE CHECKSUM: 73eace085dde112e42cd4ba2f7ef8d651da5517e
+
+COCOAPODS: 1.10.0.beta.2

@@ -1,0 +1,6 @@
+framework module Pods_SideKick {
+  umbrella header "Pods-SideKick-umbrella.h"
+
+  export *
+  module * { export * }
+}
