@@ -13,6 +13,8 @@
 		84A4E1CA25D4FAD90041DE96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A4E1C825D4FAD90041DE96 /* LaunchScreen.storyboard */; };
 		84A4E1DA25D53A720041DE96 /* LogIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A4E1D925D53A720041DE96 /* LogIn.storyboard */; };
 		84A4E1DE25D5446F0041DE96 /* Registration.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A4E1DD25D5446F0041DE96 /* Registration.storyboard */; };
+		84A4E1E325D588AA0041DE96 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A4E1E225D588AA0041DE96 /* LoginVC.swift */; };
+		84A4E1E625D58A8B0041DE96 /* RegistrationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A4E1E525D58A8B0041DE96 /* RegistrationVC.swift */; };
 		E7D2045AD92866E6D9CE982C /* Pods_SideKick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDC2FCA015F9089C86BAFD85 /* Pods_SideKick.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +29,8 @@
 		84A4E1D425D512050041DE96 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-SemiBold.ttf"; path = "../../../../../../../Downloads/Montserrat (1)/Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
 		84A4E1D925D53A720041DE96 /* LogIn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LogIn.storyboard; sourceTree = "<group>"; };
 		84A4E1DD25D5446F0041DE96 /* Registration.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Registration.storyboard; sourceTree = "<group>"; };
+		84A4E1E225D588AA0041DE96 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		84A4E1E525D58A8B0041DE96 /* RegistrationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationVC.swift; sourceTree = "<group>"; };
 		B9B6FB9450FF266DA74831CA /* Pods-SideKick.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SideKick.release.xcconfig"; path = "Target Support Files/Pods-SideKick/Pods-SideKick.release.xcconfig"; sourceTree = "<group>"; };
 		BE8F34874A756DA036CFA1F3 /* Pods-SideKick.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SideKick.debug.xcconfig"; path = "Target Support Files/Pods-SideKick/Pods-SideKick.debug.xcconfig"; sourceTree = "<group>"; };
 		DDC2FCA015F9089C86BAFD85 /* Pods_SideKick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SideKick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -114,6 +118,7 @@
 		84A4E1D525D538EE0041DE96 /* LogIn */ = {
 			isa = PBXGroup;
 			children = (
+				84A4E1E125D588800041DE96 /* LogInController */,
 				84A4E1D625D539BB0041DE96 /* LogIn Storyboard */,
 			);
 			path = LogIn;
@@ -130,6 +135,7 @@
 		84A4E1DB25D5442B0041DE96 /* Registration */ = {
 			isa = PBXGroup;
 			children = (
+				84A4E1E425D58A4C0041DE96 /* RegistrationController */,
 				84A4E1DC25D5443C0041DE96 /* Registration Storyboard */,
 			);
 			path = Registration;
@@ -141,6 +147,22 @@
 				84A4E1DD25D5446F0041DE96 /* Registration.storyboard */,
 			);
 			path = "Registration Storyboard";
+			sourceTree = "<group>";
+		};
+		84A4E1E125D588800041DE96 /* LogInController */ = {
+			isa = PBXGroup;
+			children = (
+				84A4E1E225D588AA0041DE96 /* LoginVC.swift */,
+			);
+			path = LogInController;
+			sourceTree = "<group>";
+		};
+		84A4E1E425D58A4C0041DE96 /* RegistrationController */ = {
+			isa = PBXGroup;
+			children = (
+				84A4E1E525D58A8B0041DE96 /* RegistrationVC.swift */,
+			);
+			path = RegistrationController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +283,8 @@
 			files = (
 				84A4E1BE25D4FACA0041DE96 /* AppDelegate.swift in Sources */,
 				84A4E1C025D4FACA0041DE96 /* SceneDelegate.swift in Sources */,
+				84A4E1E325D588AA0041DE96 /* LoginVC.swift in Sources */,
+				84A4E1E625D58A8B0041DE96 /* RegistrationVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
