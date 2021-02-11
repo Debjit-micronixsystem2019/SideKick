@@ -9,9 +9,10 @@
 /* Begin PBXBuildFile section */
 		84A4E1BE25D4FACA0041DE96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A4E1BD25D4FACA0041DE96 /* AppDelegate.swift */; };
 		84A4E1C025D4FACA0041DE96 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A4E1BF25D4FACA0041DE96 /* SceneDelegate.swift */; };
-		84A4E1C525D4FACA0041DE96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A4E1C325D4FACA0041DE96 /* Main.storyboard */; };
 		84A4E1C725D4FAD90041DE96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84A4E1C625D4FAD90041DE96 /* Assets.xcassets */; };
 		84A4E1CA25D4FAD90041DE96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A4E1C825D4FAD90041DE96 /* LaunchScreen.storyboard */; };
+		84A4E1DA25D53A720041DE96 /* LogIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A4E1D925D53A720041DE96 /* LogIn.storyboard */; };
+		84A4E1DE25D5446F0041DE96 /* Registration.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A4E1DD25D5446F0041DE96 /* Registration.storyboard */; };
 		E7D2045AD92866E6D9CE982C /* Pods_SideKick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDC2FCA015F9089C86BAFD85 /* Pods_SideKick.framework */; };
 /* End PBXBuildFile section */
 
@@ -19,12 +20,13 @@
 		84A4E1BA25D4FACA0041DE96 /* SideKick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SideKick.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84A4E1BD25D4FACA0041DE96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84A4E1BF25D4FACA0041DE96 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		84A4E1C425D4FACA0041DE96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84A4E1C625D4FAD90041DE96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84A4E1C925D4FAD90041DE96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84A4E1CB25D4FAD90041DE96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84A4E1D325D512050041DE96 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Bold.ttf"; path = "../../../../../../../Downloads/Montserrat (1)/Montserrat-Bold.ttf"; sourceTree = "<group>"; };
 		84A4E1D425D512050041DE96 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-SemiBold.ttf"; path = "../../../../../../../Downloads/Montserrat (1)/Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		84A4E1D925D53A720041DE96 /* LogIn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LogIn.storyboard; sourceTree = "<group>"; };
+		84A4E1DD25D5446F0041DE96 /* Registration.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Registration.storyboard; sourceTree = "<group>"; };
 		B9B6FB9450FF266DA74831CA /* Pods-SideKick.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SideKick.release.xcconfig"; path = "Target Support Files/Pods-SideKick/Pods-SideKick.release.xcconfig"; sourceTree = "<group>"; };
 		BE8F34874A756DA036CFA1F3 /* Pods-SideKick.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SideKick.debug.xcconfig"; path = "Target Support Files/Pods-SideKick/Pods-SideKick.debug.xcconfig"; sourceTree = "<group>"; };
 		DDC2FCA015F9089C86BAFD85 /* Pods_SideKick.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SideKick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -80,9 +82,10 @@
 		84A4E1BC25D4FACA0041DE96 /* SideKick */ = {
 			isa = PBXGroup;
 			children = (
+				84A4E1DB25D5442B0041DE96 /* Registration */,
+				84A4E1D525D538EE0041DE96 /* LogIn */,
 				84A4E1D225D511B80041DE96 /* Font */,
 				84A4E1D125D511950041DE96 /* Delegate */,
-				84A4E1C325D4FACA0041DE96 /* Main.storyboard */,
 				84A4E1C625D4FAD90041DE96 /* Assets.xcassets */,
 				84A4E1C825D4FAD90041DE96 /* LaunchScreen.storyboard */,
 				84A4E1CB25D4FAD90041DE96 /* Info.plist */,
@@ -106,6 +109,38 @@
 				84A4E1D425D512050041DE96 /* Montserrat-SemiBold.ttf */,
 			);
 			path = Font;
+			sourceTree = "<group>";
+		};
+		84A4E1D525D538EE0041DE96 /* LogIn */ = {
+			isa = PBXGroup;
+			children = (
+				84A4E1D625D539BB0041DE96 /* LogIn Storyboard */,
+			);
+			path = LogIn;
+			sourceTree = "<group>";
+		};
+		84A4E1D625D539BB0041DE96 /* LogIn Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				84A4E1D925D53A720041DE96 /* LogIn.storyboard */,
+			);
+			path = "LogIn Storyboard";
+			sourceTree = "<group>";
+		};
+		84A4E1DB25D5442B0041DE96 /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+				84A4E1DC25D5443C0041DE96 /* Registration Storyboard */,
+			);
+			path = Registration;
+			sourceTree = "<group>";
+		};
+		84A4E1DC25D5443C0041DE96 /* Registration Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				84A4E1DD25D5446F0041DE96 /* Registration.storyboard */,
+			);
+			path = "Registration Storyboard";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,8 +204,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				84A4E1CA25D4FAD90041DE96 /* LaunchScreen.storyboard in Resources */,
+				84A4E1DE25D5446F0041DE96 /* Registration.storyboard in Resources */,
+				84A4E1DA25D53A720041DE96 /* LogIn.storyboard in Resources */,
 				84A4E1C725D4FAD90041DE96 /* Assets.xcassets in Resources */,
-				84A4E1C525D4FACA0041DE96 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,14 +267,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		84A4E1C325D4FACA0041DE96 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				84A4E1C425D4FACA0041DE96 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		84A4E1C825D4FAD90041DE96 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

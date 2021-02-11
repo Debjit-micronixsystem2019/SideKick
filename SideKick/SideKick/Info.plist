@@ -22,19 +22,19 @@
 	<true/>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
-        <key>NSAppTransportSecurity</key>
-        <dict>
-            <key>NSAllowsArbitraryLoads</key>
-            <true/>
-        </dict>
-        <key>NSCameraUsageDescription</key>
-        <string>${PRODUCT_NAME} This Appilcation need open camera</string>
-        <key>NSLocationAlwaysUsageDescription</key>
-        <string>This application requires location services to work</string>
-        <key>NSLocationWhenInUseUsageDescription</key>
-        <string>This application requires location services to work</string>
-        <key>NSPhotoLibraryUsageDescription</key>
-        <string>This Appilcation need to gallery open for Profile Pic</string>
+		<key>NSAppTransportSecurity</key>
+		<dict>
+			<key>NSAllowsArbitraryLoads</key>
+			<true/>
+		</dict>
+		<key>NSCameraUsageDescription</key>
+		<string>${PRODUCT_NAME} This Appilcation need open camera</string>
+		<key>NSLocationAlwaysUsageDescription</key>
+		<string>This application requires location services to work</string>
+		<key>NSLocationWhenInUseUsageDescription</key>
+		<string>This application requires location services to work</string>
+		<key>NSPhotoLibraryUsageDescription</key>
+		<string>This Appilcation need to gallery open for Profile Pic</string>
 		<key>UIApplicationSupportsMultipleScenes</key>
 		<false/>
 		<key>UISceneConfigurations</key>
@@ -47,7 +47,7 @@
 					<key>UISceneDelegateClassName</key>
 					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
 					<key>UISceneStoryboardFile</key>
-					<string>Main</string>
+					<string>LogIn</string>
 				</dict>
 			</array>
 		</dict>
@@ -55,7 +55,7 @@
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
-	<string>Main</string>
+	<string>LogIn</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
@@ -73,12 +73,12 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
-    <key>UIUserInterfaceStyle</key>
-    <string>Light</string>
-    <key>UIAppFonts</key>
-    <array>
-        <string>Montserrat-Bold.ttf</string>
-        <string>Montserrat-SemiBold.ttf</string>
-    </array>
+	<key>UIUserInterfaceStyle</key>
+	<string>Light</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Montserrat-Bold.ttf</string>
+		<string>Montserrat-SemiBold.ttf</string>
+	</array>
 </dict>
 </plist>
